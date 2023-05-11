@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "autolevel-test"
+version = "0.1.0"
+description = ""
+authors = ["BTozier <benjitenji@gmail.com>"]
+readme = "README.md"
+packages = [{include = "autolevel_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
